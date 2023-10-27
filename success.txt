@@ -1,0 +1,78 @@
+<pre>Array
+(
+    [type] => notification
+    [event] => payment.succeeded
+    [object] => Array
+        (
+            [id] => 2ccdc228-000f-5000-9000-149f3c2fa709
+            [status] => succeeded
+            [amount] => Array
+                (
+                    [value] => 3000.00
+                    [currency] => RUB
+                )
+
+            [income_amount] => Array
+                (
+                    [value] => 2895.00
+                    [currency] => RUB
+                )
+
+            [description] => Заказ №11
+            [recipient] => Array
+                (
+                    [account_id] => 272404
+                    [gateway_id] => 2142899
+                )
+
+            [payment_method] => Array
+                (
+                    [type] => bank_card
+                    [id] => 2ccdc228-000f-5000-9000-149f3c2fa709
+                    [saved] => 
+                    [title] => Bank card *4444
+                    [card] => Array
+                        (
+                            [first6] => 555555
+                            [last4] => 4444
+                            [expiry_year] => 2023
+                            [expiry_month] => 12
+                            [card_type] => MasterCard
+                            [issuer_country] => US
+                        )
+
+                )
+
+            [captured_at] => 2023-10-27T12:36:12.933Z
+            [created_at] => 2023-10-27T12:34:48.661Z
+            [test] => 1
+            [refunded_amount] => Array
+                (
+                    [value] => 0.00
+                    [currency] => RUB
+                )
+
+            [paid] => 1
+            [refundable] => 1
+            [metadata] => Array
+                (
+                    [orderNumber] => 11
+                )
+
+            [authorization_details] => Array
+                (
+                    [rrn] => 130087182713674
+                    [auth_code] => 520880
+                    [three_d_secure] => Array
+                        (
+                            [applied] => 
+                            [method_completed] => 
+                            [challenge_completed] => 
+                        )
+
+                )
+
+        )
+
+)
+</pre>
